@@ -62,16 +62,16 @@ export function Navigation() {
                 Portfólio
               </button>
               <button
-                onClick={() => scrollToSection("team")}
+                onClick={() => scrollToSection("services")}
                 className={` ${scrolled ? "text-black" : "text-white/60"}  hover:text-gray-400 px-3 py-2 text-lg font-medium transition-colors`}
               >
-                As Mentes
+                Serviços
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className={` ${scrolled ? "text-black" : "text-white/60"}  hover:text-gray-400 px-3 py-2 text-lg font-medium transition-colors`}
               >
-                A Ponte
+                Contactos
               </button>
             </div>
           </div>
